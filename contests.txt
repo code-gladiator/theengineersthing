@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html>
+<head><meta http-equiv="Content-Type" content="text/html; charset=us-ascii">
+	<title>Welcome to theengineersthing.com</title>
+	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" />
+	<link href="s3.css" rel="stylesheet" type="text/css" /><script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script><script>
+  (adsbygoogle = window.adsbygoogle || []).push({
+    google_ad_client: "ca-pub-3417099309484707",
+    enable_page_level_ads: true
+  });
+</script><script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-90560770-1', 'auto');
+  ga('send', 'pageview');
+
+</script><script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script><script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+<header class="container">
+<div class="row">
+<h2 class="col-sm-5">The Engineer&#39;s Thing</h2>
+
+<nav class="col-sm-7 ">
+<p><a href="index.html">Home</a></p>
+
+<p><a href="aboutus.html">About us</a></p>
+
+<p><a href="events.html">Events</a></p>
+
+<p><a href="articles.html">Articles</a></p>
+
+<p><a href="publishevents1.html">Publish your events</a></p>
+
+<p><a href="https://goo.gl/forms/K9KjMdClCwPdGZQi2">Feedback </a></p>
+</nav>
+</div>
+</header>
+
+<p></p>
+
+<p></p>
+
+<p></p>
+
+<section class="jumbotron">
+<div class="container">
+<div class="row text-left">
+<div class="carousel slide" data-ride="carousel" id="myCarousel"><!-- Indicators -->
+<ol class="carousel-indicators">
+	<li class="active" data-slide-to="0" data-target="#myCarousel"></li>
+	<li data-slide-to="1" data-target="#myCarousel"></li>
+	<li data-slide-to="2" data-target="#myCarousel"></li>
+</ol>
+<p> </p>
+<p> </p>
+<h3 style="color:white">coding contests</h3>
+<!-- Wrapper for slides -->
+
+<div class="carousel-inner" role="listbox">
+<div class="item active"><a href="https://www.codechef.com/MARCH17"><img src="n1.jpg" ></a>
+<div class="carousel-caption">
+<h3 style="color:black">codechef long contest</h3>
+
+<h4 style="color:black">contest starting soon....</h4>
+</div>
+</div>
+
+<div class="item"><a href="https://www.codechef.com"><img  src="n2.jpg" ></a>
+<div class="carousel-caption">
+<h3 style="color:black">codechef celebrations</h3>
+
+<h4 style="color: black"></h4>
+</div>
+</div>
+
+<div class="item"><img src="contest.jpg" />
+<div class="carousel-caption">
+<h3 style="color:black"></h3>
+
+<h4 style="color:black "></h4>
+</div>
+</div>
+
+<div class="item"><a href="https://code.google.com/codejam/"><img  src="codejam5.jpg" ></a>
+<div class="carousel-caption">
+<h3 style="color:black">google code jam</h3>
+
+<h4 style="color:black ">regestrations are now open...</h4>
+</div>
+</div>
+</div>
+<!-- Left and right controls --><a class="left carousel-control" data-slide="prev" href="#myCarousel" role="button"><span class="sr-only">Previous</span> </a> <a class="right carousel-control" data-slide="next" href="#myCarousel" role="button"> <span class="sr-only">Next</span> </a></div>
+</div>
+</div>
+</section>
+
+<p></p>
+
+<p></p>
+
+<p></p>
+
+<p></p>
+
+<p></p>
+
+<p></p>
+
+<p></p>
+
+<p></p>
+
+<p></p>
+
+<p></p>
+
+<p></p>
+
+<p></p>
+
+<p></p>
+
+<p></p>
+
+<p></p>
+
+<p></p>
+
+
+<p></p>
+
+<p></p>
+
+<p></p>
+
+<p></p>
+
+<p></p>
+
+<p></p>
+
+<p></p>
+
+<p></p>
+
+<p></p>
+
+<p></p>
+
+<p></p>
+
+<p></p>
+
+<p></p>
+
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+<hr>
+<section class="container">
+<div class="row">
+<figure class="col-sm-12">
+<h2></h2>
+<br />
+<br />
+&nbsp;
+<h3>The big ones..</h3>
+<br>
+<br>
+<section class="container">
+<div class="row">
+<figure class="col-sm-12">
+<h2>1.)ACM ICPC</h2> 
+<p><h3>What Is ACM ICPC?</h3>
+<h4>The ACM ICPC is considered as the "Olympics of Programming Competitions". It is quite simply, the oldest, largest, and most prestigious programming contest in the world.<br>
+The ACM-ICPC (Association for Computing Machinery - International Collegiate Programming Contest) is a multi-tier, team-based, programming competition. Headquartered at Baylor University, Texas, it operates according to the rules and regulations formulated by the ACM.<br>
+The contest participants come from over 2,000 universities that are spread across 80 countries and six continents.<br>
+In terms of prize money, the top team takes home......... <a href="https://www.codechef.com/icpc">read more</a></h4><br>                                                       
+</p>
+<br> 
+<p><h3>How Can I Participate - Eligibility</h3>
+<h4>To meet the basic eligibility requirements for the contest you must be:<h4>
+<h4>
+<ul>
+<li>Willing and able to compete in the world finals</li>
+<li>Enrolled in a degree program at an institution (in or outside India) that can sponsor you</li>
+<li>Competing only for one institution for the calendar year</li>
+<li>You should not have participated in more than 2 contest finals prior to this attempt</li>
+<li>You should not have participated in more than 5 contest regionals prior to this attempt</li>
+<li>You cannot participate in more than 2 teams in the same year</li>
+<li>You cannot participate at more than 2 regionals in the same year (for Asia region)</li>
+</ul>
+</h4>
+<br>
+<h3>Contest Format</h3>
+<h4>
+<ul>
+<li>It is a team contest.</li>
+<li>Each team should have three members and one reserve (3 + 1).</li>
+<li>Each team must be headed by a coach, who must be a university faculty or staff member.</li>
+<li>The coach can head multiple teams</li>
+<li>The contest can have several problems (8 to 10 in general), of varying difficulty levels and mostly being algorithmic in nature.</li>
+</h4>
+<br>
+<h4>for any additional info please visit the following link-> <a href="https://icpc.baylor.edu/"> acmicpc </a></h4>
+<a href="https://icpc.baylor.edu/"> <img src=" acmicpc1.png" height="400px"/></a>
+<br>
+<br>
+<h4>2016 codejam finals</h4>
+<div class="responsive-vide">
+<h4>ACMICPC world finals 2016</h4>
+<div class="responsive-vide">
+<iframe width="560" height="315" src="https://www.youtube.com/watch?v=kIbgLrquTx4" frameborder="0" allowfullscreen></iframe>
+</div>
+</div>
+<p> </p>
+<p> </p>	
+</figure>          
+</div>
+</section>
+<br>
+<br>
+
+
+<section class="container">
+<div class="row">
+<figure class="col-sm-12">
+<h2>2.)GOOGLE CODE JAM</h2> 
+<p><h3>CODE JAM</h3>
+<h4>Google's Code Jam returns for the 14th year as one of the most challenging programming competitions in the world. The contest consists of multiple rounds of algorithmic puzzles, culminating in the World Finals at Google's office in Dublin, Ireland. Register before the Online Qualification Round on April 7 at 23:00 UTC.</h4><br>  
+<h3>What's Involved In Code Jam?</h3><br>
+<h4>Code jam begins with a qualification round taking on April 7,2017@23:00 UTC.The round is available for 27hours.<br>
+Next multiple online rounds lead to the CodeJam World Finals during which the top 25 Code Jammers and last year's champion will compete for the title of CodeJam World Champion and a Grand Prize of $15,000.<br>
+</h4>
+<br>
+<h3>Schedule</h3>
+<div class="row">
+<h4>1.)Registration<br>
+Tuesday, March 7, 2017 19:00 UTC – Sunday, April 9, 2017 2:00 UTC<br>
+</h4>
+</div>
+<div class="row">
+<h4>2.)Qualification Round<br>
+Friday, April 7, 2017 23:00 UTC – Sunday, April 9, 2017 2:00 UTC<br>
+</h4>
+</div>
+<div class="row">
+<h4>3.)Online Round 1:SubRound-A<br>
+Saturday, April 15, 2017 1:00 UTC – 3:30 UTC<br>
+</h4>
+</div>
+<div class="row">
+<h4>4.)Online Round 1:SubRound-B<br>
+Saturday, April 22, 2017 16:00 UTC – 18:30 UTC<br>
+</h4>
+</div>
+<div class="row">
+<h4>5.)Online Round 1:SubRound-C<br>
+Sunday, April 30, 2017 9:00 UTC – 11:30 UTC<br>
+</h4>
+</div>
+<div class="row">
+<h4>6.)Online Round 2<br>
+Saturday, May 20, 2017 14:00 UTC – 16:30 UTC<br>
+</h4>
+</div>
+<div class="row">
+<h4>7.)Online Round 3<br>
+Saturday, June 17, 2017 14:00 UTC – 16:30 UTC<br>
+</h4>
+</div>
+<div class="row">
+<h4>8.)Online Finals<br>
+Friday, August 11, 2017 16:30 UTC – 20:30 UTC<br>
+</h4>
+</div>
+</p>
+<br> 
+<h4>for any additional info please visit the following link-> <a href="https://code.google.com/codejam/"> codejam </a></h4>
+<a href="https://code.google.com/codejam/"> <img src=" codejam3.jpg" height="400px"/></a>
+<br>
+<br>
+<h4>2016 codejam finals</h4>
+<div class="responsive-vide">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/g9ebwBWEuCc" frameborder="0" allowfullscreen></iframe>
+</div>
+<p> </p>
+<p> </p>	
+</figure>          
+</div>
+</section>
+<br>
+<br>
+
+
+<section class="container">
+<div class="row">
+<figure class="col-sm-12">
+<h2>3.)GOOGLE APAC TEST</h2> 
+<p><h3>APAC TEST</h3>
+<h4>The Google APAC 2017 University Test ("Test") is an online test designed to look for young talent majoring in Computer Science and related fields, to further engage with and determine interview eligibility at Google.<br>
+ These Terms and Conditions (“Terms”) apply to the Test sponsored by Google Asia Pacific Pte. Ltd. and its affiliates. Please read these Terms carefully as they form a binding legal agreement between you and Google Asia Pacific Pte. Ltd., located at 8 Marina View #30-01, Asia Square 1, Singapore 018960 ("Google") with respect to the Test.<br>
+</h4>
+<h3>ELIGIBILITY Requirements</h3>
+<h3>Age:</h3> <h4>You must be 18 years of age or older at the time of registration, or of the age of majority in your country, if higher than 18 years of age.</h4>
+<br>
+<h3>Residency:</h3> <h4>You must be a legal resident of, or studying in, one of the following countries and territories: Afghanistan, American Samoa, Australia, Bangladesh, Bhutan, Brunei, Cambodia, China, Cook Islands, East Timor, Federated States of Micronesia, Fiji, Guam, Hong Kong, India, Indonesia, Japan, Kiribati, Laos, Macau, Malaysia, Maldives, Marshall Islands, Mongolia, Myanmar, Nauru, Nepal, New Zealand, Niue, Northern Mariana Islands, Pakistan, Palau, Papua New Guinea, Philippines, Samoa, Singapore, Solomon Islands, South Korea, Sri Lanka, Taiwan, Thailand, Tokelau, Tonga, Tuvalu, Vanuatu, Vietnam, Wallis and Futuna.</h4>
+<br>
+<h3>Student Status:</h3><h4> You must be a student enrolled in a higher (post-secondary) education institution (including but not limited to: university, college, polytechnic).</h4>
+<br>
+<h3>to read more terms and conditions please visit the following link-><a href="https://code.google.com/codejam/apactest/terms.html">terms and conditions</a><br>
+</p>
+<br> 
+<h3>for any additional info please visit the following link regarding to the schedules and rounds-> <a href="https://code.google.com/codejam/apactest"> apactest </a></h3>
+<a href="https://code.google.com/codejam/apactest"> <img src=" apactest.jpg" height="400px"/></a>
+<br>
+<br>
+<p> </p>
+<p> </p>	
+</figure>          
+</div>
+</section>
+<br>
+<br>
+
+<section class="container">
+<div class="row">
+<figure class="col-sm-12">
+<h2>4.)FACEBOOK HACKERCUP</h2> 
+<p><h3>HACKER CUP</h3>
+<h4>The Facebook Hacker Cup competition ("Competition") is an international competition provided by Facebook, Inc. ("Facebook") to engage programmers in algorithmic programming, leveraging Facebook's features and 
+services made available through its website at www.facebook.com and other Facebook branded and co-branded websites (including sub-domains, international versions, widgets, and mobile versions) (the "Facebook Service").<br>
+ Prizes will be awarded to competitors who have the highest scores on a series of programming problems, as described below. The Competition will be held in a series of rounds online between January 6, 2017 and January 28, 2017, with the onsite final round held at a Facebook office (to be determined).
+<br>Facebook Hacker Cup is an international programming competition hosted and administered by Facebook. The competition began in 2011 as a means to identify top engineering talent for potential employment at Facebook.<br>
+<br> The competition consists of a set of algorithmic problems which must be solved in a fixed amount of time. Competitors may use any programming language and development environment to write their solutions
+</h4>
+<h3>Eligibility</h3>
+<h4>This Competition is open to individuals who are registered users of the Facebook Service, have agreed to these Terms, and are at least 18 years of age or older on the date of Registration for the Competition. The Competition is void in Quebec and where prohibited by law. Individuals and entities located in a country embargoed by the United States, listed on the U.S. Treasury Department's list of Specially Designated Nationals, or restricted by applicable export controls and sanctions programs are ineligible to participate in the Competition.<br>
+ Facebook reserves the right to relax any of these restrictions if permitted by law before the start of the Qualification Round. All communications between Facebook and competitors will be in English, including but not limited to the Competition website content and email communications. Current employees, interns, contractors, and official office-holders of Facebook, and its subsidiaries, affiliates, and their respective directors, officers, employees, advertising and promotion agencies, representatives, and agents ("Sponsor Entities"), and members of the Sponsor Entities.....<a href="https://www.facebook.com/hackercup/terms/">read more</a></h4>
+<br>
+<br>
+</p>
+<br> 
+<h4>for any additional info please visit the following link-> <a href="https://www.facebook.com/hackercup/"> hackercup </a></h4>
+<a href="https://www.facebook.com/hackercup/"> <img src="hackercup.jpg" height="400px"/></a>
+<br>
+<br>
+<h4>Facebook Hackathon</h4>
+<div class="responsive-vide">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/qhRD0rSNIxE" frameborder="0" allowfullscreen></iframe>
+</div>
+<br>
+<p> </p>
+<p> </p>	
+</figure>          
+</div>
+</section>
+<br>
+<br>
+
+
+<p></p>
+
+<p></p>
+
+<hr />
+<p></p>
+
+<p></p>
+
+</body>
+</html></html>

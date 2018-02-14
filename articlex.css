@@ -1,0 +1,75 @@
+body {
+  font-family: Comic Sans MS;
+  font-weight: 500;
+background-color:black;
+}
+
+
+header {
+  padding: 10px 0px 0px 20px;
+
+}
+
+header .row
+ {
+  display: flex;
+  align-items: center;
+}
+
+header h2{
+font-family:AR DESTINE;
+  font-weight: 300;
+font-size 35px;
+  color:white;
+padding: 25px 10px 5px 5px;
+}
+
+header nav {
+  display: flex;
+  justify-content: flex-end;
+padding: 20px 0px 0px 5px;
+}
+
+header p {
+  padding: 25px 10px 10px 0px;
+color:gold;  
+ 
+}
+
+
+.col-sm-7
+{
+color:gold;
+} 
+
+
+.jumbotron
+{
+background-image:url("C:\Users\HP\Desktop\projectfirst\photos\interview photo1.jpeg");
+background-size:cover;
+}
+
+.collapse
+{
+font family:Helvetica,garamond,sans-serif;
+color:#061937;
+}
+
+h4{
+
+color: orange;
+}
+
+h2 {
+color: #FF5733;
+}
+h3
+{
+color:white;
+}
+
+
+p{
+
+color: white;
+}

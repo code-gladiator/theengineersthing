@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title> Events page</title>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"/>
+<link rel="stylesheet" href="eventscss.css" type="text/css"/>
+
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<meta charset="utf-8"/>
+</head>
+
+
+<body>
+
+<header class="container">
+<div class="row">
+  <h2 class="col-sm-5">The Engineer's Thing</h2>
+  <nav class="col-sm-7">
+   <a href="index.html"> <p>Home</p>  </a>
+   <a href="aboutus.html"> <p>About us</p> </a>
+  <a href="events.html">  <p>Events</p></a>
+  <a href="articles.html">  <p>Articles</p></a>
+  <a href="publishevents1.html">  <p>Publish your events</p></a>	
+<a href="https://goo.gl/forms/K9KjMdClCwPdGZQi2"><p>Feedback	</p></a>
+  </nav>
+  </div>
+  </header>
+<br>
+<br>
+<br>
+<br>
+<h1 font-family="Courier new">&nbsp&nbsp EVENTS</h1>
+<br>
+<br>
+<br>
+<hr>
+<br>
+<br>
+<section class="container">
+<div class="row">
+      <figure class="col-sm-12">
+        <h2>KSHITIJ,IIT KGP</h2>
+       <a href="kshitij.jpg"> <img src=" kshitij.jpg" height="330px"/></a>	
+	
+
+
+      </figure>
+</div>
+
+<div class="subimages">
+<a href="kshitij_subimage1.jpg"><img src="kshitij_subimage1.jpg " height="250px" width="300px"/></a>
+<a href="kshitij_subimage2.jpg"><img src="kshitij_subimage2.jpg" height="250px" width="300px"/></a>
+<a href="kshitij_subimage3.jpg"><img src="kshitij_subimage3.jpg" height="250px" width="300px"/></a>
+</div>
+
+<br>
+<br>
+
+
+
+
+<ul>
+<li> Venue :IIT Kharagpur</li>
+<li> Date :27th to 29th January</li>
+<li> Events going to be conducted:<ul>
+<li>Quizzard</li>
+<li> Conceptualize</li>
+<li> Code Conclave</li>
+<li>Genesis</li>
+<li>Robotics</li>
+<li>Mechanize</li>
+<li> Tech4fun</li> 
+<li> And many more...</li> 
+</ul> 
+
+  </li>
+<li> Fee: Depending upon the event and workshop</li>
+<li> Contact:<a href="http://ktj.in/#ktj/Home">Visit the organiser's webiste </a></li> 
+</ul>
+
+
+<br>
+<br>
+
+ <hr>
+<br>
+<p>Kshitij, the annual techno-management fest of IIT Kharagpur provides a platform for a confluence of students, academia, and the industry. </p>
+<br>
+<br> 
+<p><h4> <u>General information: </u></h4></p>
+<p>While the competitions at Kshitij prove to be the ultimate test of grit, knowledge and skill, the guest lectures and workshops provide an enriching experience for the avid learners. The fest has been graced by the presence of such luminaries who are looked up to for their distinguished contribution in their respective fields. The upcoming 14th edition is going to be held from 27th-29th January 2017.
+
+Our glorious journey has been recognized by UNESCO, UNICEF, SAYEN and CEE as they offered us their patronage and appreciated our efforts by associating with our social initiatives.
+
+Above all, with over 70,000 participation per year and a prize money of over INR 5 million, it is the Asia'a largest Techno-Management Fest.
+</p>
+
+<br>
+<br>
+<a href="https://www.facebook.com/ktj.iitkgp/"> Facebook page</a>
+
+<h4> Please visit the organizer's website and Facebook page to get more information. Don't miss this fantastic opportunity! </h4>
+
+
+
+<br>
+<br>
+<br>
+<hr>
+<br>
+<br>
+<h3> Many more events to come....Stay tuned! </h3> 
+<hr>
+<h4>You can publish your event here too. Go to <a href="publishevents1.html"> Publish your events </a> page for more details..! </h4>
+
+</section>
+</body>
+
+</html>
+	

@@ -1,0 +1,104 @@
+body {
+  font-family: comic-sans, sans-serif;
+  font-weight: 500;
+background-color:black;
+}
+
+header {
+  padding: 10px 0px 0px 20px;
+
+}
+
+header .row
+ {
+  display: flex;
+  align-items: center;
+}
+
+header h2{
+font-family:AR DESTINE;
+  font-weight: 300;
+font-size 35px;
+  color:white;
+padding: 25px 10px 5px 5px;
+}
+
+header nav {
+  display: flex;
+  justify-content: flex-end;
+padding: 20px 0px 0px 5px;
+}
+
+header p {
+  padding: 25px 10px 10px 0px;
+color:gold;  
+ 
+}
+
+
+.col-sm-7
+{
+color:white;
+} 
+
+.col-md-6 {
+  margin: 0 0 40px ;
+}
+
+
+h2{
+
+font-family:Courier new;
+color:white;
+padding: 10px 10px 0px 10px;
+}
+
+
+
+.jumbotron {
+  display: flex;
+  align-items: center;
+  background-image: url('image2.jpg');
+  background-size: cover;
+  color: #ffffff;
+  height: 600px;
+  text-shadow: 0.25px 0.25px 0.25px #00000;
+}
+
+
+
+figure
+{
+
+color:white;
+}
+
+
+section .row img {
+  margin: 20px 0px 60px 0px;
+  width:100%;
+  
+}
+
+h3{
+color:yellow;
+}
+
+
+p,ul,h4{
+
+font-family: Comic Sans MS ;
+color:white ;
+}
+
+h1{
+color:orange ;
+font-weight:500;
+font-family:Comic Sans MS;
+}
+
+
+h2
+{
+color:gold;
+}

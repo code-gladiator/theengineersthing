@@ -1,0 +1,73 @@
+body{
+
+background-color:black;
+font-family:Comic Sans MS;
+}
+
+.col-sm-5{
+color:white;
+font-weight:500;
+}
+
+
+header {
+  padding: 10px 0px 0px 20px;
+
+}
+
+header .row
+ {
+  display: flex;
+  align-items: center;
+}
+
+header h2{
+font-family:AR DESTINE;
+  font-weight: 300;
+font-size 35px;
+  color:white;
+padding: 25px 10px 5px 5px;
+}
+
+header nav {
+  display: flex;
+  justify-content: flex-end;
+padding: 20px 0px 0px 5px;
+}
+
+header p {
+  padding: 25px 10px 10px 0px;
+color:gold;  
+ 
+}
+
+
+.col-sm-7
+{
+color:white;
+} 
+
+h1{
+
+color:orange;
+font-weight:500;
+
+}
+
+
+
+figure{
+
+color:white;
+font-size:20px;
+}
+
+
+h4{
+
+color:gold;
+}
+
+
+
+

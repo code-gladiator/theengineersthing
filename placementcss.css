@@ -1,0 +1,62 @@
+body{
+
+background-color:black;
+font-family:Comic Sans MS;
+}
+
+
+header {
+  padding: 10px 0px 0px 20px;
+
+}
+
+header .row
+ {
+  display: flex;
+  align-items: center;
+}
+
+header h2 {
+font-family:AR DESTINE;
+  font-weight: 800;
+  padding: 20px 20px 10px 10px;
+color:white;
+}
+
+header nav {
+  
+  display: flex;
+  justify-content: flex-end;
+color:gold;
+}
+
+header p {
+  padding: 25px 20px 10px 0px;
+color:gold;  
+ 
+}
+
+h1{
+
+color:orange;
+font-weight:600;
+}
+
+
+
+figure{
+
+color:white;
+font-size:20px;
+}
+
+
+h3,h4{
+
+color:gold;
+font-family:Verdana;
+}
+
+
+
+

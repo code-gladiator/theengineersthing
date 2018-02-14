@@ -1,0 +1,1070 @@
+<!DOCTYPE html>
+<html>
+<head><meta http-equiv="Content-Type" content="text/html; charset=us-ascii">
+	<title>Implementation Challenges in Hackerrank solutions</title>
+	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" />
+	<link href="solutionscss.css" rel="stylesheet" type="text/css" /><script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script><script>
+  (adsbygoogle = window.adsbygoogle || []).push({
+    google_ad_client: "ca-pub-3417099309484707",
+    enable_page_level_ads: true
+  });
+</script><script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-90560770-1', 'auto');
+  ga('send', 'pageview');
+
+</script><script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script><script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+<header class="container">
+<div class="row">
+<h2 class="col-sm-5">The Engineer's Thing</h2>
+
+<nav class="col-sm-7 ">
+<p><a href="index.html">Home</a></p>
+
+<p><a href="aboutus.html">About us</a></p>
+
+<p><a href="events.html">Events</a></p>
+
+
+
+<p><a href="articles.html">Articles</a></p>
+
+<p><a href="publishevents1.html">Publish your events</a></p>
+
+<p><a href="https://goo.gl/forms/K9KjMdClCwPdGZQi2">Feedback </a></p>
+</nav>
+</div>
+</header>
+
+<br>
+<br>
+<hr>
+<br>
+<br>
+<h2> &nbsp&nbsp&nbspImplementation</h2>
+<br>
+<br>
+<br>
+<hr>
+<br>
+<br>
+<h3>&nbsp&nbspProblem: Grading Students</h3>
+<br>
+<br>
+<p><a href="https://www.hackerrank.com/challenges/grading">Solve me </a></p>
+<br>
+<br>
+<h3><b><u> Solution: </u></b></h3>
+<br>
+<br>
+<p>int main(){<br>
+    int n; <br>
+    scanf("%d",&n);<br>
+    for(int a0 = 0; a0 < n; a0++){<br>
+        int grade,res;<br>
+        scanf("%d",&grade);<br>
+        res=grade%10;<br>
+       
+        if(res==3 && grade>37)<br>
+            {<br>
+            
+            printf("%d\n",grade+2);<br>
+        }<br>
+        if(res==4 && grade>37)<br>
+            {<br>
+            printf("%d\n",grade+1);<br>
+        }<br>
+        if(res==8 && grade>37)<br>
+            {<br>
+            printf("%d\n",grade+2);<br>
+        }<br>
+        if(res==9 && grade>37)<br>
+            {<br>
+            printf("%d\n",grade+1);<br>
+        }<br>
+        if(res==1||res==2||res==5||res==6||res==7||res==0||grade<=37)<br>
+            printf("%d\n",grade);<br>
+    }<br>
+    
+    return 0;<br>
+}<br></p>
+<hr>
+<br>
+<br>
+<h3>&nbsp&nbspProblem:Apple and Orange </h3>
+<br>
+<br>
+<p><a href="https://www.hackerrank.com/challenges/apple-and-orange">Solve me </a></p>
+<br>
+<br>
+<h3><b><u> Solution: </u></b></h3>
+<br>
+<br>
+<p>
+<br>
+int main(){<br>
+    int s;<br> 
+    int t; <br>
+    scanf("%d %d",&s,&t);<br>
+    int a; <br>
+    int b; <br>
+    scanf("%d %d",&a,&b);<br>
+    int m; <br>
+    int n; <br>
+    scanf("%d %d",&m,&n);<br>
+    int *apple = malloc(sizeof(int) * m);<br>
+    int i,apples=0,oranges=0;<br>
+    for(i = 0; i < m; i++){<br>
+       scanf("%d",&apple[i]);<br>
+        if(apple[i]>0 && (a+apple[i])>=s && (a+apple[i])<=t)<br>
+            apples++;<br>
+    }<br>
+    int *orange = malloc(sizeof(int) * n);<br>
+    for(i = 0; i < n; i++){<br>
+       scanf("%d",&orange[i]);<br>
+        if(orange[i]<0 && (b+orange[i])>=s && (b+orange[i])<=t)<br>
+            oranges++;<br>
+    }<br>
+    printf("%d\n%d",apples,oranges);<br>
+    return 0;<br>
+}<br>
+
+</p>
+<br>
+<br>
+<hr>
+<br>
+<br>
+<h3>&nbsp&nbspProblem:Kangaroo</h3>
+<br>
+<br>
+<p><a href="https://www.hackerrank.com/challenges/kangaroo">Solve me </a></p>
+<br>
+<br>
+<h3><b><u> Solution: </u></b></h3>
+<br>
+<br>
+<p>
+<br>
+int main(){<br>
+    int x1,step=0;<br> 
+    int v1; <br>
+    int x2; <br>
+    int v2; <br>
+    scanf("%d %d %d %d",&x1,&v1,&x2,&v2);<br>
+   if(v1 > v2 && !((x2-x1)%(v1-v2)))<br>
+    printf("YES");<br>
+else<br>
+    printf("NO");<br>
+                
+    
+    return 0;<br>
+}<br>
+</p>
+<br>
+<hr>
+<br>
+<br>
+<h3>&nbsp&nbspProblem:Between Two Sets</h3>
+<br>
+<br>
+<p><a href="https://www.hackerrank.com/challenges/between-two-sets">Solve me </a></p>
+<br>
+<br>
+<h3><b><u> Solution: </u></b></h3>
+<br>
+<br>
+<p>
+int main() {<br> 
+int n;<br>
+int m,i,j,k,flag=0,tag=0,num=0;<br> 
+
+scanf("%d %d",&n,&m);<br>
+
+int *a = malloc(sizeof(int) * n);<br>
+
+for(int a_i = 0; a_i < n; a_i++)<br>
+{<br>
+   scanf("%d",&a[a_i]);<br>
+}<br>
+int *b = malloc(sizeof(int) * m);<br>
+
+for(int b_i = 0; b_i < m; b_i++)<br>
+{<br>
+   scanf("%d",&b[b_i]);<br>
+}<br>
+
+for(k=1;k<=100;k++)<br>
+ {<br>
+    for(i=0;i<n;i++)<br>
+    {<br>
+       if(k%a[i]==0)<br> 
+        flag=1;<br>
+
+        else<br>
+        { flag=0;<br>
+         break;<br>
+         }<br>
+
+    }<br>
+
+    if(flag==1)<br>
+        {<br>
+          for(j=0;j<m;j++)<br>
+            {<br>
+               if(b[j]%k==0)<br>
+                   tag=1;<br>
+
+              else<br>
+              { tag=0;<br>
+                break;<br>
+              }<br>
+
+             }<br>
+         if(tag==1)<br>
+             {// printf("%d ",k);<br>
+             num++;}<br>
+         }<br>
+         }<br>
+
+printf("%d",num);<br>
+return 0;<br>
+ }<br>
+</p>
+<br>
+<hr>
+<br>
+<br>
+<h3>&nbsp&nbspProblem:Divisible Sum Pairs</h3>
+<br>
+<br>
+<p><a href="https://www.hackerrank.com/challenges/divisible-sum-pairs">Solve me </a></p>
+<br>
+<br>
+<h3><b><u> Solution: </u></b></h3>
+<br>
+<br>
+<p>
+int count=0,d,j,l,i,sum=0;<br>
+int main(){<br>
+    int n; <br>
+    int k; <br>
+   
+   scanf("%d%d",&n,&k);<br>
+    int *a=malloc(sizeof(int) *n);<br>
+    for(i=0;i<n;i++)<br>
+        {<br>
+        scanf("%d",&a[i]);<br>
+    }<br>
+    for(j=0;j<n;j++)<br>
+        {<br>
+        for(l=j+1;l<n;l++)<br>
+            {<br>
+            
+                
+                if((a[j]+a[l])%k==0)<br>
+                    {<br>
+                    count++;<br>
+                
+            }<br>
+        }<br>
+    }<br>
+    printf("%d",count);<br>
+    return 0;<br>
+}<br>
+</p>
+<br>
+<br>
+<hr>
+<br>
+<br>
+<h3>&nbsp&nbspProblem:Migratory Birds</h3>
+<br>
+<br>
+<p><a href="https://www.hackerrank.com/challenges/migratory-birds">Solve me </a></p>
+<br>
+<br>
+<h3><b><u> Solution: </u></b></h3>
+<br>
+<br>
+<p>
+int main() {<br>
+    int max;<br>
+    
+    int size, i;<br>
+    scanf("%d", &size);<br>
+    int a[size];<br>
+    int item;<br>
+    int b[200000]={0};<br>
+    for(i = 0; i < size; i++) {<br> 
+        
+        scanf("%d", &item);<br>
+        
+        a[i] = item;<br>
+        b[item]=b[item]+1;<br>
+    }<br>
+    max=0;<br>
+    int max1=0;<br>
+    for(i=0;i<size;i++)<br>
+        {<br>
+        if(b[i]>max)<br>
+            {<br>
+            max=b[i];<br>
+            max1=i;<br>
+        }<br>
+    }<br>
+    printf("%d",max1);<br>
+    
+    return 0;<br>
+}<br>
+</p>
+<br>
+<br>
+<hr>
+<br>
+<br>
+<h3>&nbsp&nbspProblem:Bon Appetit</h3>
+<br>
+<br>
+<p><a href="https://www.hackerrank.com/challenges/bon-appetit">Solve me </a></p>
+<br>
+<br>
+<h3><b><u> Solution: </u></b></h3>
+<br>
+<br>
+<p>
+int main() {<br>
+int i;<br>
+     int n,k,b=0;<br>
+    scanf("%d%d",&n,&k);<br>
+    int c[n];<br>
+    for(i=0;i<n;i++)<br>
+        {<br>
+        scanf("%d",&c[i]);<br>
+    }<br>
+    int b_charged,cost=0;<br>
+    scanf("%d",&b_charged);<br>
+    int b_actual=0;<br>
+    for(i=0;i<n;i++)<br>
+        {<br>
+        b=b+c[i];<br>
+    }<br>
+    b_actual=(b-c[k])/2;<br>
+    if(b_actual==b_charged)<br>
+        {<br>
+        printf("Bon Appetit");<br>
+    }<br>
+    else<br>
+        {<br>
+        cost=b_charged-b_actual;<br>
+        printf("%d",cost);<br>
+    }<br>
+    return 0;<br>
+}<br>
+</p>
+<br>
+<br>
+<hr>
+<br>
+<br>
+<h3>&nbsp&nbspProblem:Sock Merchant</h3>
+<br>
+<br>
+<p><a href="https://www.hackerrank.com/challenges/sock-merchant">Solve me </a></p>
+<br>
+<br>
+<h3><b><u> Solution: </u></b></h3>
+<br>
+<br>
+<p>
+int main(){<br>
+    int n,count=0;<br> 
+    scanf("%d",&n);<br>
+    int *s = (int *)calloc(100,sizeof(int));<br>
+    for(int c_i = 0; c_i < n; c_i++){<br>
+       int c;<br>
+       scanf("%d",&c);<br>
+       s[c]++;<br>
+       if(s[c]%2 == 0){<br>
+           s[c]=0;<br>
+           count++;<br>
+       }<br>
+    }<br>
+    printf("%d",count);<br>
+    return 0;<br>
+}<br>
+</p>
+<br>
+<br>
+<hr>
+<br>
+<br>
+<h3>&nbsp&nbspProblem:The Hurdle Race</h3>
+<br>
+<br>
+<p><a href="https://www.hackerrank.com/challenges/the-hurdle-race">Solve me </a></p>
+<br>
+<br>
+<h3><b><u> Solution: </u></b></h3>
+<br>
+<br>
+<p>
+int main(){<br>
+    int n; <br>
+    int k,max=0,res;<br>
+    scanf("%d %d",&n,&k);<br>
+    int *height = malloc(sizeof(int) * n);<br>
+    for(int height_i = 0; height_i < n; height_i++){<br>
+       scanf("%d",&height[height_i]);<br>
+        if(height[height_i]>max)<br>
+            max=height[height_i];<br>
+    }<br>
+    if(max>k)<br>
+        {<br>
+    res=max-k;<br>
+    
+    printf("%d",res);<br>
+    }<br>
+    else<br>
+        printf("%d",0);<br>
+    // your code goes here<br>
+    return 0;<br>
+}<br>
+
+</p>
+<br>
+<hr>
+<br>
+<br>
+<h3>&nbsp&nbspProblem:Designer PDF Viewer</h3>
+<br>
+<br>
+<p><a href="https://www.hackerrank.com/challenges/designer-pdf-viewer">Solve me </a></p>
+<br>
+<br>
+<h3><b><u> Solution: </u></b></h3>
+<br>
+<br>
+<p>
+int main(){<br>
+    
+    int h[26];<br>
+    int i,max=0,len,letter,size;<br>
+    for(i = 0; i < 26; i++){<br>
+       scanf("%d",&h[i]);<br>
+    }<br>
+    char* word = (char *)malloc(512000 * sizeof(char));<br>
+    scanf("%s",word);<br>
+    len=strlen(word);<br>
+    for(i=0;i<=len;i++)<br>
+        {<br>
+        letter=word[i]-97;<br>
+        size=h[letter];<br>
+        if(size>max)<br>
+            {<br>
+            max=size;<br>
+        }<br>
+        
+    }<br>
+    printf("%d",len*max);<br>
+    return 0;<br>
+}<br>
+
+
+</p>
+<br>
+<hr>
+<br>
+<br>
+<h3>&nbsp&nbspProblem:Utopian Tree</h3>
+<br>
+<br>
+<p><a href="https://www.hackerrank.com/challenges/utopian-tree">Solve me </a></p>
+<br>
+<br>
+<h3><b><u> Solution: </u></b></h3>
+<br>
+<br>
+<p>
+int main(){<br>
+    int t,i,h=1;<br>
+    scanf("%d",&t);<br>
+    for(int a0 = 0; a0 < t; a0++){<br>
+        int n; <br>
+        scanf("%d",&n);<br>
+        
+        
+        i=1;<br>
+        while(i<=n)<br>
+            {<br>
+           
+            if(i%2==1)<br>
+                {<br>
+                h=h*2;<br>
+            }<br>
+            else<br>
+                {<br>
+                h++;<br>
+            }<br>
+            i++;<br>
+        }<br>
+        printf("%d",h);<br>
+        printf("\n");<br>
+        h=1;<br>
+    }<br>
+    
+    return 0;<br>
+}<br>
+</p>
+<br>
+<hr>
+<br>
+<br>
+<h3>&nbsp&nbspProblem:Angry Professor</h3>
+<br>
+<br>
+<p><a href="https://www.hackerrank.com/challenges/angry-professor">Solve me </a></p>
+<br>
+<br>
+<h3><b><u> Solution: </u></b></h3>
+<br>
+<br>
+<p>
+int main(){<br>
+    int t,a0,a1,arr[10000],count=0;<br> 
+    scanf("%d",&t);<br>
+    for(int a0 = 0; a0 < t; a0++){<br>
+        int n; <br>
+        int k; <br>
+        scanf("%d %d",&n,&k);<br>
+        for(a1=0;a1<n;a1++)<br>
+            {<br>
+            scanf("%d",&arr[a1]);<br>
+        }<br>
+        for(a1=0;a1<n;a1++)<br>
+            {<br>
+            if(arr[a1]<0||arr[a1]==0)<br>
+                count++;<br>
+            
+        }<br>
+        if(count<k)<br>
+            printf("YES");<br><br
+        else<br>
+            printf("NO");<br>
+        printf("\n");<br>
+        count=0;<br>
+    }<br>
+            
+    return 0;<br>
+}<br>
+</p>
+<br>
+<hr>
+<br>
+<br>
+<h3>&nbsp&nbspProblem:Beautiful Days At the Movies</h3>
+<br>
+<br>
+<p><a href="https://www.hackerrank.com/challenges/beautiful-days-at-the-movies">Solve me </a></p>
+<br>
+<br>
+<h3><b><u> Solution: </u></b></h3>
+<br>
+<br>
+<p>
+int revv(int a)<br>
+{<br>
+	int sum=0,rem;<br>
+	while(a>0)<br>
+            {<br>
+        rem=a%10;<br>
+        a=a/10;<br>
+        sum=(sum*10)+rem;<br>
+        <br>
+        }<br>
+        return sum;<br>
+}<br>
+<br>
+<br>
+
+
+
+int main() {<br>
+
+    int i,j,k;<br>
+    
+    int count=0;<br>
+    int a,rem,sum1=0,res=0,temp,res1=0;<br>
+    scanf("%d%d%d",&i,&j,&k);<br>
+    for(a=i;a<=j;a++)<br>
+        {<br>
+        
+        temp=a;<br>
+        
+        rem=0;<br>
+        res=0;<br>
+        res1=0;<br>
+        sum1=revv(a);<br>
+    res=abs(temp-sum1);<br>
+    res1=res%k;<br>
+    if(res1==0)<br>
+        {<br>
+        count++;<br>
+    }<br>
+    }    <br>
+    printf("%d",count);<br>
+    
+    return 0;<br>
+}<br>
+
+</p>
+<br>
+<hr>
+<br>
+<br>
+<h3>&nbsp&nbspProblem:Viral Advertising</h3>
+<br>
+<br>
+<p><a href="https://www.hackerrank.com/challenges/strange-advertising">Solve me </a></p>
+<br>
+<br>
+<h3><b><u> Solution: </u></b></h3>
+<br>
+<br>
+<p>
+int main()<br>
+    {<br>
+    int n,i,j;<br>
+    j=5;<br>
+    scanf("%d",&n);<br>
+    int result=0;<br>
+    for(i=1;i<=n;i++)<br>
+        {<br>
+        result=result+j/2;<br>
+        j=j/2*3;<br>
+    }<br>
+    printf("%d",result);<br>
+    return 0;<br>
+    
+}<br>
+</p>
+<br>
+<hr>
+<br>
+<br>
+<h3>&nbsp&nbspProblem:Save the prisoner!</h3>
+<br>
+<br>
+<p><a href="https://www.hackerrank.com/challenges/save-the-prisoner">Solve me </a></p>
+<br>
+<br>
+<h3><b><u> Solution: </u></b></h3>
+<br>
+<br>
+<p>
+int main() {<br>
+
+    int t,n,m,s,result,i;<br>
+    scanf("%d",&t);<br>
+    for(i=0;i<t;i++)<br>
+        {<br>
+        scanf("%d%d%d",&n,&m,&s);<br>
+        result=(m+s-1)%n;<br>
+        if(result==0)<br>
+            printf("%d",n);<br>
+        else<br>
+            printf("%d",result);<br>
+        printf("\n");<br>
+    }<br>
+    return 0;<br>
+}<br>
+</p>
+<br>
+<hr>
+<br>
+<br>
+<h3>&nbsp&nbspProblem:Jumping on the clouds:revisited</h3>
+<br>
+<br>
+<p><a href="https://www.hackerrank.com/challenges/jumping-on-the-clouds-revisited">Solve me </a></p>
+<br>
+<br>
+<h3><b><u> Solution: </u></b></h3>
+<br>
+<br>
+<p>
+int main(){<br>
+    int n,i; <br>
+    int k,count=0;<br>
+    int e=100;<br>
+    scanf("%d %d",&n,&k);<br>
+    int *c = malloc(sizeof(int) * n);<br>
+    for(i = 0; i < n; i++){<br>
+       scanf("%d",&c[i]);<br>
+    }<br>
+    for(i=0;i<n;i++)<br>
+        {<br>
+        if(c[i]==1)<br>
+            count++;<br>
+        
+    }<br>
+    if(count==n && k==1)<br>
+        {<br>
+        printf("%d",100-n*3);<br>
+    }<br>
+    else<br>
+        {<br>
+    for(i=k;i%n!=0;i=i+k)<br>
+        {<br>
+        if(c[i]==0)<br>
+            {<br>
+            e=e-1;<br>
+        }<br>
+        else<br>
+            {<br>
+            e=e-3;<br>
+        }<br>
+    }<br>
+    if(k==n )<br>
+        {<br>
+        printf("%d",e-3);<br>
+    }<br>
+    
+    else<br>
+        {<br>
+    printf("%d",e-1);<br>
+    }<br>
+    return 0;<br>
+}<br>
+}<br>
+</p>
+<br>
+<hr>
+<br>
+<br>
+<h3>&nbsp&nbspProblem: Find Digits</h3>
+<br>
+<br>
+<p><a href="https://www.hackerrank.com/challenges/find-digits">Solve me </a></p>
+<br>
+<br>
+<h3><b><u> Solution: </u></b></h3>
+<br>
+<br>
+<p>
+int main(){<br>
+    int t,n,d,i,count=0,l;<br>
+    scanf("%d",&t);<br>
+    for(i=0;i<t;i++)<br>
+        {<br>
+        scanf("%d",&n);<br>
+        l=n;<br>
+        count=0;<br>
+        while(n)<br>
+        {<br>
+            d=n%10;<br>
+            n=n/10;<br>
+            
+             if(d && l%d==0)<br>
+                count++;<br>
+        
+       }<br>
+        printf("%d",count);<br>
+        printf("\n");<br>
+    }<br>
+    return 0;<br>
+}<br>
+
+</p>
+<br>
+<hr>
+<br>
+<br>
+<h3>&nbsp&nbspProblem: Sherlock and squares</h3>
+<br>
+<br>
+<p><a href="https://www.hackerrank.com/challenges/sherlock-and-squares">Solve me </a></p>
+<br>
+<br>
+<h3><b><u> Solution: </u></b></h3>
+<br>
+<br>
+<p>
+int main() {<br>
+
+    int i,j,t;<br>
+    long int m,n,a,b,count=0;<br>
+    scanf("%d",&t);<br>
+    for(i=0;i<t;i++)<br>
+        {<br>
+        scanf("%ld%ld",&m,&n);<br>
+        a=ceil(sqrt(m));<br>
+        b=floor(sqrt(n));<br>
+        for(j=a;j<=b;j++)<br>
+            {<br>
+            count++;<br>
+        }printf("%ld",count);<br>
+        printf("\n");<br>
+        count=0;<br>
+        
+    }<br>
+    return 0;<br>
+}<br>
+
+</p>
+<br>
+<hr>
+<br>
+<br>
+<h3>&nbsp&nbspProblem: Library Fine</h3>
+<br>
+<br>
+<p><a href="https://www.hackerrank.com/challenges/library-fine">Solve me </a></p>
+<br>
+<br>
+<h3><b><u> Solution: </u></b></h3>
+<br>
+<br>
+<p>
+int main(){<br>
+    int d1; <br>
+    int m1; <br>
+    int y1; <br>
+    scanf("%d %d %d",&d1,&m1,&y1);<br>
+    int d2; <br>
+    int m2; <br>
+    int y2; <br>
+    scanf("%d %d %d",&d2,&m2,&y2);<br>
+    int fine=0;<br>
+    if(d1>d2 && m1==m2)<br>
+        {<br>
+        fine=15*(d1-d2);<br>
+    }<br>
+    if(m1>m2 && y1<=y2)<br>
+        {<br>
+        fine=500*(m1-m2);<br>
+    }<br>
+    if(y1>y2)<br>
+        {<br>
+        fine=10000;<br>
+    }<br>
+    if(y1<y2)<br>
+        fine=0;<br>
+    printf("%d",fine);<br>
+    return 0;<br>
+}<br>
+</p>
+<br>
+<hr>
+<br>
+<br>
+<h3>&nbsp&nbspProblem: Cut the sticks</h3>
+<br>
+<br>
+<p><a href="https://www.hackerrank.com/challenges/cut-the-sticks">Solve me </a></p>
+<br>
+<br>
+<h3><b><u> Solution: </u></b></h3>
+<br>
+<br>
+<p>
+int main(){<br>
+    int n,i,count=0,j,temp,m;<br>
+    scanf("%d",&n);<br>
+    int a[n];<br>
+    for(i = 0; i < n;i++){<br>
+       scanf("%d",&a[i]);<br>
+        
+    }<br>
+    printf("%d\n",n);<br>
+     for(i=0;i<n;i++)<br><br>
+        {<br>
+        for(j=i+1;j<n;j++)<br>
+            {<br>
+            if(a[i]<a[j])<br>
+                {<br>
+                temp=a[i];<br>
+                a[i]=a[j];<br>
+                a[j]=temp;<br>
+            }<br>
+        }<br>
+    }<br>
+    
+    if(a[0]==1)<br>
+        {<br>
+        return n;<br>
+    }<br>
+    else{<br>
+    while(a[1])<br>
+        {<br>
+    for(i=0;i<n;i++)<br>
+        {<br>
+        a[i]=a[i]-a[n-1];<br>        
+    }<br>
+        for(i=0;i<n;i++)<br>
+            {<br>
+            if(a[i]!=0)<br>
+                {<br>
+                count++;<br>
+            }<br>
+            
+        }<br>
+        if(count==0)<br>
+            break;<br>
+        else<br>
+            {<br>
+        printf("%d",count);<br>
+            printf("\n");<br>
+}<br>
+        m=count;<br>
+        n=m;<br>
+        count=0;<br>
+        <br>
+    }<br>
+    }<br>
+    return 0;<br>
+}<br>
+</p>
+<br>
+<hr>
+<br>
+<br>
+<h3>&nbsp&nbspProblem: Repeated String</h3>
+<br>
+<br>
+<p><a href="https://www.hackerrank.com/challenges/repeated-string">Solve me </a></p>
+<br>
+<br>
+<h3><b><u> Solution: </u></b></h3>
+<br>
+<br>
+<p>
+int main(){ <br>
+      
+ 
+    char s[100];<br>
+    scanf("%s",s);<br>
+long long int i,n,lenth,b,c,h,count=0,count1=0;<br> 
+    
+    scanf("%lld",&n);<br>
+   <br>
+    lenth=strlen(s);<br>
+   <br>
+     b=n/lenth;<br>
+<br>
+    c=n%lenth;<br>
+ <br>
+    for(i=0;i<lenth;i++){<br>
+	
+        if(s[i]=='a'){<br>
+            count++;<br>
+        }<br>
+        
+    }<br>
+    
+    
+  h=count*b;<br>
+  
+    for( i=0;i<c;i++){<br>
+       if(s[i]=='a'){<br>
+            count1++;<br>
+        }<br>
+    }<br>
+    h=h+count1;<br>
+        printf("%lld",h);<br>
+    <br>
+    
+    return 0;<br>
+}<br>
+
+</p>
+<br>
+<hr>
+<br>
+<br>
+<h3>&nbsp&nbspProblem: Jumping on the clouds</h3>
+<br>
+<br>
+<p><a href="https://www.hackerrank.com/challenges/jumping-on-the-clouds">Solve me </a></p>
+<br>
+<br>
+<h3><b><u> Solution: </u></b></h3>
+<br>
+<br>
+<p>
+int main(){<br>
+    int n,i,count=0,j=0;<br>
+    scanf("%d",&n);<br>
+    int *a = malloc(sizeof(int) * n);<br>
+    for(i = 0; i < n; i++){<br>
+       scanf("%d",&a[i]);<br>
+    }<br>
+    while(j<n-1)<br>
+        {<br>
+        if(a[j+2]!=1 && j<n)<br>
+            {<br>
+            j=j+2;<br>
+            count++;<br>
+        }<br>
+        else{<br>
+            j=j+1;<br>
+            count++;<br>
+        }<br>
+    }<br>
+    printf("%d",count);<br><br>
+    return 0;<br>
+}<br>
+</p>
+<br>
+<hr>
+<br>
+<br>
+<h3>&nbsp&nbspProblem: Equalize the array</h3>
+<br>
+<br>
+<p><a href="https://www.hackerrank.com/challenges/equality-in-a-array">Solve me </a></p>
+<br>
+<br>
+<h3><b><u> Solution: </u></b></h3>
+<br>
+<br>
+<p>
+int main() {<br>
+
+    int n,a[100],j;<br>
+    int i,count=0,count1=0;<br>
+    scanf("%d",&n);<br>
+    for(i=0;i<n;i++)<br>
+        {<br>
+        scanf("%d",&a[i]);<br>
+    }<br>
+    for(i=0;i<n;i++)<br>
+        {<br>
+        count=0;<br>
+        for(j=0;j<n;j++)<br>
+            {<br>
+            if(a[i]==a[j])<br>
+                count++;<br>
+            
+        }<br>
+        
+        if(count1<count)<br>
+            count1=count;<br>
+    }<br>
+    printf("%d",n-count1);<br>
+    return 0;<br>
+}<br>
+
+</p>
+<br>
+<br>
+<hr>
+</body>
+</html>
+

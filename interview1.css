@@ -1,0 +1,51 @@
+body {
+  font-family: comic-sans, sans-serif;
+  font-weight: 500;
+background-color:black;
+}
+p,h1
+{
+color:gold;
+}
+header {
+  padding: 10px 0px 0px 0px;
+
+}
+
+header .row,
+footer .row {
+  display: flex;
+  align-items: center;
+}
+
+header h2 {
+text-align:left;
+color:white;
+font-family:AR DESTINE;
+  font-weight: 800;
+  
+}
+
+header nav {
+  display: flex;
+  justify-content: flex-end;
+}
+
+header p {
+  padding: 25px 20px 10px 0px;
+  color:white;
+ 
+}
+.jumbotron
+{
+background-image:url("borderphoto2.jpg");
+}
+.collapse
+{
+font-style:verdana,sans-serif;
+color:red;
+}
+footer h4 {
+color:#E02E2C;
+font:Garamond;
+}
