@@ -1,0 +1,89 @@
+h4 {   
+  animation-duration: 400ms;
+  animation-name: blink;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+@keyframes blink {
+  0% {
+    opacity: 1;
+    color: pink;
+  }
+
+  25% {
+    color: green;
+    opacity: 0;
+  }
+
+  50% {
+    opacity: 1;
+    color: blue;
+  }
+
+  75% {
+   opacity: 0;
+   color: orange;
+ }
+
+ 100% {
+   opacity: 1;
+   color: pink;
+ }
+}
+
+
+
+
+
+body {
+  font-family: Comic Sans MS;
+  font-weight: 500;
+background-color:black;
+}
+
+header {
+  padding: 10px 0px 0px 20px;
+
+}
+
+header .row,
+footer .row {
+  display: flex;
+  align-items: center;
+}
+
+header h2 {
+font-family:AR DESTINE;
+  font-weight: 800;
+color:white;
+  
+}
+
+header nav {
+  display: flex;
+  justify-content: flex-end;
+
+}
+
+header p {
+  padding: 25px 20px 10px 0px;
+  color:gold;
+ 
+}
+.jumbotron
+{
+background-image:url("newsnotifs2.jpg");
+background-size:cover;
+color:#7FFF00;
+height:350px;
+}
+#base {
+text-align:center;
+}
+h3{
+color:SaddleBrown;
+}
+.info{
+color:PaleGreen;
+}

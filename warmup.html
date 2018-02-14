@@ -1,0 +1,659 @@
+<!DOCTYPE html>
+<html>
+<head><meta http-equiv="Content-Type" content="text/html; charset=us-ascii">
+	<title>Warmup challenges in Hackerrank solutions</title>
+	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" />
+	<link href="solutionscss.css" rel="stylesheet" type="text/css" /><script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script><script>
+  (adsbygoogle = window.adsbygoogle || []).push({
+    google_ad_client: "ca-pub-3417099309484707",
+    enable_page_level_ads: true
+  });
+</script><script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-90560770-1', 'auto');
+  ga('send', 'pageview');
+
+</script><script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script><script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+<header class="container">
+<div class="row">
+<h2 class="col-sm-5">The Engineer's Thing</h2>
+
+<nav class="col-sm-7 ">
+<p><a href="index.html">Home</a></p>
+
+<p><a href="aboutus.html">About us</a></p>
+
+<p><a href="events.html">Events</a></p>
+
+
+
+<p><a href="articles.html">Articles</a></p>
+
+<p><a href="publishevents1.html">Publish your events</a></p>
+
+<p><a href="https://goo.gl/forms/K9KjMdClCwPdGZQi2">Feedback </a></p>
+</nav>
+</div>
+</header>
+
+<br>
+<br>
+<hr>
+<br>
+<br>
+<h2> &nbsp&nbsp&nbspWarmup Challenges</h2>
+
+<br>
+<br>
+<hr>
+
+<br>
+<br>
+<h3>Problem:Simple Array Sum<br><br>
+ <a href="https://www.hackerrank.com/challenges/simple-array-sum">Solve me</a></h3>
+<br>
+<br>
+<h4> Concept you will be mostly using: For Loop</h4>
+<h3><b><u>Solution:</u><b></h3>
+ <h3>C:</h3><br><br>
+<p>
+int main(){ <br>
+    int number_of_elements; <br>
+    int i;<br>
+    scanf("%d", &number_of_elements);<br>
+    int array[number_of_elements];<br>
+    int sum_of_array = 0;<br>
+    
+    for(i = 0; i < number_of_elements; i++){<br>
+       scanf("%d", &array[i]);<br>
+       sum_of_array += array[i];<br>
+    }<br>
+    
+    printf("%d\n", sum_of_array);<br>
+    return 0;<br>
+}<br>
+<br></p>
+<h3>C++: </h3>
+<p>
+using namespace std;<br>
+
+int main(){<br>
+    int number_of_elements;<br>
+    cin >> number_of_elements;<br>
+    vector <int> array(number_of_elements);<br>
+    int sum_of_array = 0;<br>
+    
+    for(int i = 0; i < number_of_elements; i++){<br>
+       cin >> array[i];<br>
+       sum_of_array += array[i];<br>
+    }<br>
+    
+    cout << sum_of_array;<br>
+    return 0;<br>
+}</p><br>
+<br>
+<br>
+<h3>JAVA:</h3>
+<br>
+<br><p>
+import java.io.*;<br>
+import java.util.*;<br>
+
+public class Solution {<br>
+
+    public static void main(String[] args) {<br>
+        Scanner in = new Scanner(System.in);<br>
+        int numberOfElements = in.nextInt();<br>
+        int array[] = new int[numberOfElements];<br>
+        int sumOfArray = 0;<br>
+        for(int i = 0; i < numberOfElements; i++) {<br>
+            array[i] = in.nextInt();<br>
+            sumOfArray += array[i];<br>
+        }<br>
+        System.out.println(sumOfArray);<br>
+        in.close();<br>
+    }<br>
+}<br>
+<br>
+</p>
+<hr>
+<br>
+<br>
+<h3>Problem:Compare the Triplets<br><br>
+ <a href="https://www.hackerrank.com/challenges/compare-the-triplets">Solve me</a></h3>
+<br>
+<br>
+<h4> Concept you will be mostly using: If-Else</h4>
+<h3><b><u>Solution:</u><b></h3>
+<h3>C: </h3> <br><br>
+<p>int a_triplet[3], b_triplet[3];<br>
+int alice_points = 0;<br>
+int bob_points = 0;<br>
+
+int main() {<br>
+    for (int i = 0; i < 3; i++) {<br>
+        scanf("%d", &a_triplet[i]);<br>
+    }<br>
+    for (int i = 0; i < 3; i++) {<br>
+        scanf("%d", &b_triplet[i]);<br>
+    }<br>
+    for(int i = 0; i < 3; i++) {<br>
+        if (a_triplet[i] > b_triplet[i]) alice_points++;<br>
+        if (a_triplet[i] < b_triplet[i]) bob_points++;<br>
+    }<br>
+    printf("%d %d\n", alice_points, bob_points);<br>
+    return 0;<br>
+}</p><br>
+<br>
+<h3>C++:</h3>
+<p>using namespace std;<br>
+
+int main(){<br>
+    vector <int> a_triplet(3);<br>
+    vector <int> b_triplet(3);<br>
+    int alice_points = 0;<br>
+    int bob_points = 0;<br>
+    
+    for (int i = 0; i < 3; i++) {<br>
+        cin >> a_triplet[i];<br>
+    }<br>
+    for (int i = 0; i < 3; i++) {<br>
+        cin >> b_triplet[i];<br>
+    }<br>
+    
+    for(int i = 0; i < 3; i++) {<br>
+        if (a_triplet[i] > b_triplet[i]) alice_points++;<br>
+        if (a_triplet[i] < b_triplet[i]) bob_points++;<br>
+    }<br>
+    cout << alice_points << " " << bob_points << endl;<br>
+    return 0;<br>
+}</p><br><br>
+<h3>JAVA:</h3>
+<br>
+<br><p>
+public class Solution {<br>
+    public static void main(String[] args) {<br>
+        Scanner in = new Scanner(System.in);<br>
+        int[] a_triplet = new int[3];<br>
+        int[] b_triplet = new int[3];<br>
+        for (int i = 0; i < 3; i++) {<br>
+            a_triplet[i] = in.nextInt();<br>
+        }<br>
+        for (int i = 0; i < 3; i++) {<br>
+            b_triplet[i] = in.nextInt();<br>
+        }<br>
+        int alice_points = 0;<br>
+        int bob_points = 0;<br>
+        for (int i = 0; i < 3; i++) {<br>
+            if (a_triplet[i] > b_triplet[i]) {<br>
+                alice_points += 1;<br>
+            } else if (a_triplet[i] < b_triplet[i]) {<br>
+                bob_points += 1;<br>
+            }<br>
+        }<br>
+        System.out.printf("%d %d", alice_points, bob_points);<br>
+    }<br>
+}<br>
+</p>
+<hr>
+<br>
+<br>
+<h3>Problem:A Very Big Sum<br><br>
+ <a href="https://www.hackerrank.com/challenges/a-very-big-sum">Solve me</a></h3>
+<br>
+<br>
+<h4> Concept you will be mostly using: Long data type</h4>
+<h3><b><u>Solution:</u><b></h3>
+ <br><br><h3>C:</h3><br>
+<p>int main(){<br>
+   long int arr[10],sum=0;<br>
+    int N,i;<br>
+    scanf("%d",&N);<br>
+    for(i=0;i<N;i++)<br>
+        {<br>
+        scanf("%ld",&arr[i]);<br>
+    }<br>
+    for(i=0;i<N;i++)<br>
+        {<br>
+        sum=sum+arr[i];<br>
+    }<br>
+    printf("%ld",sum);<br>
+    return 0;<br>
+}</p><br>
+
+<br>
+<h3>C++:</h3>
+<br>
+<br>
+<p>using namespace std;<br>
+
+int main() {<br>
+    int number_of_elements;<br>
+    cin >> number_of_elements;<br>
+    vector <int> array(number_of_elements);<br>
+    for (int i = 0; i < number_of_elements; i++) {<br>
+        cin >> array[i];<br>
+    }<br>
+        
+    long long int sum_of_numbers = 0;<br>
+    for (int i = 0; i < number_of_elements; i++) {<br>
+        sum_of_numbers += array[i];<br>
+    }<br>
+    cout << sum_of_numbers << endl;<br>
+    return 0;<br>
+}</p><br>
+<br>
+<br>
+<h3>JAVA:</h3><br><br>
+<p>import java.util.*;<br>
+
+public class Solution {<br>
+    public static void main(String[] args) {<br>
+        Scanner in = new Scanner(System.in);<br>
+        int numberOfElements = in.nextInt();<br>
+        long sumOfNumbers = 0L;<br>
+        
+        for (int i = 0; i < numberOfElements; i++) {<br>
+            sumOfNumbers += in.nextLong();<br>
+        }<br>
+        in.close();<br>
+        System.out.println(sumOfNumbers);<br>
+    }<br>
+}<br>
+</p>
+<hr>
+<br>
+<br>
+
+<h3>Problem:Diagnol Difference<br><br>
+ <a href="https://www.hackerrank.com/challenges/diagonal-difference">Solve me</a></h3>
+<br>
+<br>
+<h4> Concept you will be mostly using:Two Dimensional arrays</h4>
+<h3><b><u>Solution:</u><b></h3>
+<h3>C:</h3> <br>
+<p>int main(){<br>
+    int n,a_i,diff=0,s1=0,s2=0;<br>
+    scanf("%d",&n);<br>
+    int a[n][n];<br>
+    for(int a_i = 0; a_i < n; a_i++){<br>
+       for(int a_j = 0; a_j < n; a_j++){<br>
+          
+          scanf("%d",&a[a_i][a_j]);<br>
+       }<br>
+    }<br>
+        for(a_i=0;a_i<n;a_i++)<br>
+            {<br>
+            s1=s1+a[a_i][a_i];<br>
+            s2=s2+a[a_i][n-1-a_i];<br>
+        }<br>
+        diff=abs(s1-s2);<br>
+        printf("%d",diff);<br>
+    
+    return 0;<br>
+}</p><br>
+<br>
+<h3>C++</h3>
+<br>
+<br>
+<p>using namespace std;<br>
+
+int main() {<br>
+    int n;<br>
+    cin >> n;<br>
+
+    int arr[n][n];<br>
+
+    long long int d1=0; //First Diagonal<br>
+    long long int d2=0; //Second Diagonal<br>
+
+    for (int i = 0; i < n; i++) {<br>
+        for (int j = 0; j < n; j++) {<br>
+            cin >> arr[i][j];<br>
+            if (i == j) d1 += arr[i][j];<br>
+            if (i == n - j - 1) d2 += arr[i][j];<br>
+        }<br>
+    }<br>
+
+    cout << abs(d1 - d2) << endl; //Absolute difference of the sums across the diagonals<br>
+    return 0;<br>
+}</p><br>
+<br>
+
+
+<hr>
+<br>
+<br>
+<h3>Problem:Plus Minus<br><br>
+ <a href="https://www.hackerrank.com/challenges/plus-minus">Solve me</a></h3>
+<br>
+<br>
+<h4> Concept you will be mostly using:If-else</h4>
+<h3><b><u>Solution:</u><b></h3>
+<h3>C:</h3><br><br>
+<p>int main(){<br>
+    int n; <br>
+    scanf("%d",&n);<br>
+    int a[n],i;<br>
+    float p=0,ne=0,z=0;<br>
+    float pos,neg,zero;<br>
+    for(i=0;i<n;i++)<br>
+        {<br>
+        scanf("%d",&a[i]);<br>    
+    }<br>
+    for(i=0;i<n;i++)<br>
+        {<br>
+        if(a[i]>0)<br>
+            p++;<br>
+        else if(a[i]<0)<br>
+            ne++;<br>
+        else<br>
+            z++;<br>
+    }<br>
+    pos=p/n;<br>
+    neg=ne/n;<br>
+    zero=z/n;v
+    printf("%f\n%f\n%f",pos,neg,zero);<br>
+    return 0;<br>
+}</p><br>
+<br>
+<h3>C++</h3>
+<br><br>
+<p>using namespace std;<br>
+
+int main() {<br>
+    int n;<br>
+    cin >> n;<br>
+
+    float pl = 0, mn = 0, zr = 0;<br>
+
+    for (int i = 0; i < n; i++) {<br>
+        int val;<br>
+        cin >> val;<br>
+        zr += (val == 0);<br>
+        pl += (val > 0);<br>
+        mn += (val < 0);<br>
+    }<br>
+    
+    zr = zr / (double)n;<br>
+    pl = pl / (double)n;<br>
+    mn = mn / (double)n;<br>
+    
+    printf("%0.06lf\n%0.06lf\n%0.06lf\n", pl, mn, zr);<br>
+    return 0;<br>
+}</p><br>
+<br>
+<h3>JAVA:</h3><br><br>
+<p>import java.util.*;<br>
+
+public class Solution {<br>
+
+    public static void main(String[] args) {<br>
+        Scanner scan = new Scanner(System.in);<br>
+        double numInputs = scan.nextDouble();<br>
+        int posInputs = 0;<br>
+        int negInputs = 0;<br>
+        int zeroInputs = 0;<br>
+
+        for(int i = 0; i < numInputs; i++){<br>
+            int tmp = scan.nextInt();<br>
+            
+            if (tmp > 0){<br>
+                posInputs++;<br>
+            }<br>
+            else if(tmp < 0){<br>
+                negInputs++;<br>
+            }<br>
+            else{<br>
+                zeroInputs++;<br>
+            }<br>
+        }<br>
+        scan.close();<br>
+        
+        // Print result:<br>
+        System.out.println(posInputs / numInputs);<br>
+        System.out.println(negInputs / numInputs);<br>
+        System.out.println(zeroInputs / numInputs);<br>
+    }<br>
+}<br>
+
+<br>
+<br>
+
+</p>
+<hr>
+<br>
+<br>
+<h3>Problem:Staircase<br><br>
+ <a href="https://www.hackerrank.com/challenges/staircase">Solve me</a></h3>
+<br>
+<br>
+<h4> Concept you will be mostly using:Loops</h4>
+<h3><b><u>Solution:</u><b></h3>
+<h3>C:</h3><br> <br>
+<p>int main(){<br>
+    int n; <br>
+    scanf("%d",&n);<br>
+    int i,j;<br>
+    for(i=0;i<n;i++)<br>
+        {<br>
+        for(j=0;j<n;j++)<br>
+            {<br>
+            if(j<n-i-1)<br>
+                printf(" ");<br>
+            else<br>
+                printf("#");<br>
+        }<br>
+        printf("\n");<br>
+    }<br>
+    return 0;<br>
+}</p><br>
+<br>
+<h3>C++:</h3>
+<br>
+<br>
+<p>using namespace std;<br>
+
+int main () {<br>
+    int height;<br>
+    cin >> height;<br>
+
+    for (int i = 1; i <= height; i++) {<br>
+        for (int j = 0; j < i; j++) {<br>
+            if(j==0) {		<br>
+                //Printing spaces <br>
+                for(int t = 0; t < height - i; t++) cout << " ";<br>
+            }<br>
+            //Print hashes<br>
+            cout << "#";<br>
+        }<br>
+        cout << endl;<br>
+    }<br>
+    return 0;<br>
+}</p><br>
+<br>
+<h3>JAVA:</h3>
+<br><br>
+<p>import java.util.*;<br>
+
+public class Solution {<br>
+
+    public static void main(String[] args) {<br>
+        Scanner scan = new Scanner(System.in);<br>
+        int numInputs = scan.nextInt();<br>
+        scan.close();<br>
+        
+        for(int i = 1; i <= numInputs; i++){ // rows<br>
+            <br>
+            int j = numInputs;<br>
+            
+            // loop to print (size - i) spaces<br>
+            while(j-- > i) {<br>
+                System.out.print(" ");<br>
+            }<br>
+            // loop to print (i) #s<br>
+            while(j-- >= 0) {<br>
+                System.out.print("#");<br>
+            }<br>
+            
+            System.out.println();<br>
+        }<br>
+        
+    }<br>
+}<br>
+
+
+<br>
+</p>
+<hr>
+<br>
+<br>
+
+<h3>Problem:Mini-Max Sum<br><br>
+ <a href="https://www.hackerrank.com/challenges/mini-max-sum">Solve me</a></h3>
+<br>
+<br>
+<h4> Concept you will be mostly using:Loops and if-else</h4>
+<h3><b><u>Solution:</u><b></h3>
+<h3>C:</h3><br> <br>
+<p>int main(){<br>
+ 
+    long int arr[5],i,sum,min=0,max=0;<br>
+    for(i=1;i<=5;i++)<br>
+        {<br>
+        scanf("%ld",&arr[i]);<br>
+        
+    }<br>
+    min=arr[1]+arr[2]+arr[3]+arr[4]+arr[5];<br>
+    for(i=1;i<=5;i++)<br>
+        {<br>
+        sum=(arr[1]+arr[2]+arr[3]+arr[4]+arr[5])-arr[i];<br>
+        if(sum>max)<br>
+            {<br>
+            max=sum;<br>
+        }<br>
+        if(min>sum)<br>
+            {<br>
+            min=sum;<br>
+        }<br>
+        <br>
+    }<br>
+    printf("%ld %ld",min,max);<br>
+    return 0;<br>
+}</p><br>
+<br>
+<h3>JAVA:</h3><br><br>
+<p>import java.util.*;<br>
+
+public class Solution {<br>
+
+    public static void main(String[] args) {<br>
+        Scanner scan = new Scanner(System.in);<br>
+        long sum = 0;<br>
+        long min = 1000000000;<br>
+        long max = 0;<br>
+        while(scan.hasNext()) {<br>
+            long n = scan.nextLong();<br>
+            sum = sum + n;<br>
+            if (min > n) {<br>
+                min = n;<br>
+            }<br>
+            if (max < n) {<br>
+                max = n;<br>
+            }<br>
+        }<br>
+        scan.close();<br>
+        
+        System.out.println((sum - max) + " " + (sum - min));<br>
+    }<br>
+}<br>
+
+
+
+<br>
+</p>
+<hr>
+<br>
+<br>
+
+
+<h3>Problem:Time-Conversion<br><br>
+ <a href="https://www.hackerrank.com/challenges/time-conversion">Solve me</a></h3>
+<br>
+<br>
+<h4> Concept you will be mostly using:Strings</h4>
+<h3><b><u>Solution:</u><b></h3>
+ <h3>C:</h3><br>
+<p>int main(){<br>
+    int hh, mm, ss ;<br>
+    char time[2];<br>
+    scanf("%d:%d:%d%s", &hh, &mm, &ss, time) ;<br>
+    if(strcmp(time,"PM")==0)<br>
+        {<br>
+        if(hh==12)<br>
+        {<br>
+        hh=12;<br>
+        }<br>
+        else<br>
+            {<br>
+            hh+=12;<br>
+        }<br>
+    }<br>
+    if(strcmp(time,"AM")==0)<br>
+     {   if(hh==12)<br>
+        {<br>
+        hh=abs(hh-12);<br>
+     }<br>
+      else{<br>
+          hh=hh+0;<br>
+      }<br>
+    }<br>
+    printf("%02d:%02d:%02d", hh, mm, ss) ;<br>
+    return 0;<br>
+
+    
+}</p><br>
+<br>
+<h3>C++:</h3>
+<br>
+<br>
+<p>using namespace std;<br>
+
+int main() {<br>
+    string s;<br>
+    cin >> s;<br>
+
+    int n = s.length();<br>
+    int hh, mm, ss;<br>
+    hh = (s[0] - '0') * 10 + (s[1] - '0');<br>
+    mm = (s[3] - '0') * 10 + (s[4] - '0');<br>
+    ss = (s[6] - '0') * 10 + (s[7] - '0');<br>
+
+    if (hh < 12 && s[8] == 'P') hh += 12;<br>
+    if (hh == 12 && s[8] == 'A') hh = 0;<br>
+
+    printf("%02d:%02d:%02d\n", hh, mm, ss);<br>
+
+    return 0;<br>
+}<br>
+
+
+
+
+<br>
+</p>
+<hr>
+<br>
+<br>
+
+
+
+</body>
+</html>
+

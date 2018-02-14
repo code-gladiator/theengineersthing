@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title> Placement Experiences</title>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"/>
+<link rel="stylesheet" href="placementcss.css" type="text/css"/>
+
+ 
+  
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<meta charset="utf-8"/>
+</head>
+
+
+<body>
+
+<header class="container">
+<div class="row">
+  <h2 class="col-sm-5">The Engineer's Thing</h2>
+  <nav class="col-sm-7 ">
+   <a href="index.html"> <p>Home</p>  </a>
+   <a href="aboutus.html"> <p>About us</p> </a>
+  <a href="events.html">  <p>Events</p></a>
+  <a href="articles.html">  <p>Articles</p></a>
+  <a href="publishevents1.html">  <p>Publish your events</p></a>
+<a href="https://goo.gl/forms/K9KjMdClCwPdGZQi2"><p>Feedback	</p></a>	
+  </nav>
+  </div>
+  </header>
+
+<br>
+<br>
+<hr> 
+<br>
+<h1>&nbsp&nbsp&nbsp&nbspPlacement Experiences</h1>
+<br>
+<br>
+<br>
+<h3> Want to read about some great placement stories which may help you? Lets get started!! </h3>
+<br>
+
+<hr>
+<br>
+<br>
+<section class="container">
+<div class="row">
+<figure class="col-sm-12">
+<h4> What makes the difference...</h4>
+<p>
+
+One of my batchmates got placed in Facebook and I know him fairly well.
+
+He is one of the brightest students from our batch. He was from Computer Science and Engineering, close to 9 pointer and the projects he did are the normal ones that any other person from our batch did or would've done. But that isn't the point to focus on.
+
+I can tell you what differentiated him from others was his will and hard work. During the 3rd year, he was offered an internship in Microsoft, at the conclusion of which he was offered a PPO there. He took it, thereby making him ineligible for any other on-campus placements. So while we others were busy trying to get into other companies, we thought this guy is having fun - already placed, with a whole year of college remaining. Little did we know his ambition was much bigger.
+
+He kept on preparing more and more. Applying into his dream companies off campus. To gain the motivation to get even better at such a stage is admirable. Then on one fine day, we got to know that he has been selected into Facebook. It was huge. Many surprised, many rattled but all admiring started congratulating him, before we even realized what he had achieved for himself and. being from a new IIT, for the reputation of the institute.
+
+So, to sum up, it is not which projects he did or what his background was that turned out to be the deciding factor, but his determination and hard work that got him into Facebook.
+<br>
+<br>
+
+-Via Quora 
+<br>
+Written by: Pravesh Jain, IIT Ropar graduate, 2013 </p>
+</figure>
+</div>
+</section>
+<br>
+<hr>
+
+
+
+<br>
+<br>
+<section class="container">
+<div class="row">
+<figure class="col-sm-12">
+<h4> Google Interview</h4>
+<p>Even as I was in my 2nd year of B.Tech, I heard of work life at Google, the work done there and was highly passionate about working at Google. I din't try much for the internship as my CG was around 7 and I had heard they don't take anything less than toppers. (That's absolutely false I can assure!)
+Before Google I had dreamed of working at Microsoft, as Operating Systems was something I was always interested in, even before I joined engineering. As a matter of fact, MS-IT even came to our campus each year for placements (though they have nothing to do with Windows/ Win phone OS). I could not even clear the 1st round of MS-IT on campus (Maybe I was over-confident as I was placed in another company just the previous day). So after rejection from MS-IT I just randomly applied to Google, Amazon, Yahoo, Intel, Oracle, Teradata (and maybe couple of more companies) just to see if their careers section really worked! Lightening struck me when 2-3 weeks later I got a call from Google HR that my resume was shortlisted and they wanted to interview me. (Yes, I had a slightly impressive resume, 2 summer internships from IITB, experience in mobile apps, CG 7.5+).
+
+If this seems too long, skip to the bottom part and just read what to do to prepare!
+
+2 weeks later: 1st Telephonic interview (caller was from USA, can't remember location) asked 2 questions, was a bit tense, couldn't answer right away, but he kept giving hints and I answered both questions eventually, I also made silly mistakes in the code I wrote.
+
+Somehow that interview was cleared, the HR told me to prepare better for upcoming interviews.
+
+1 month later: 2nd Telephonic interview (again from USA) asked 2 very simple questions, I answered well, wrote code well. Then he asked a very difficult questions, but he was only looking for my approach, not the correct answer. I gave a good approach, wasn't totally correct, but he was satisfied. Interview cleared, was called for onsite interviews to Hyderabad.
+
+I had prepared a lot by this time, had read a lot about people's Google interview experiences, etc.
+
+3 weeks later: 5 rounds at Google Hyderabad office.
+
+Round 1: Moderately hard question on String matching and tree traversal, was able to answer and code both to satisfaction.
+
+Round 2: A Dynamic programming problem (hadn't seen before) so took me long time to reach upon solution and code it. Another simple problem based on binary search.
+
+Round 3: (Toughest) Had to design an algorithm for a game, on a white board. Was clueless for few mins, then interviewer asked to solve an easier version by reducing variables, somehow gave an algorithm, but wasn't good enough. Next problem was related to heaps and sorting, he din't agree with my approach, but I had seen a similar problem on geeksforgeeks.
+
+Round 4: Two questions, both were mathematical puzzles, one required backtracking. Both were a bit hard, but managed to solve with little hints.
+
+Round 5: Problem on Serialization encoding and decoding, designing a cache system. Couldn't solve without hints, but interviewer was satisfied in the end with my approach.
+
+Overall, it was a great experience appearing for 5 rounds, being asked mind boggling questions and surprisingly my brain worked 200% faster and smarter than I thought it could. I definitely managed to impress myself, but apparently it wasn't good enough and hence later I was told that I could do better and I wasn't selected.
+
+If I could go back in time and do things differently, I would do the following:
+
+1. I read Coding Interview Questions - Narasimha Karumunchi (An awesome book!), but I read it, din't solve it. I should have coded atleast the good questions.
+
+2. Same with "Cracking the Coding Interview - Gayle Laakmann"
+
+3. I religiously watched Data structures and Algorithms - Navin Garg, IITD. Very essential to understand power of Data Structures.
+
+4. Watch Design and Analysis of Algorithm - IITB. Very good to get knowledge of Dynamic programming, greedy algorithms and graphs.
+
+5. I should have focused on "problems solving", I din't practice as much as I read. I wasn't good enough at mathematical programming problems as these weren't a part of the material I used to prepare.
+
+Well, now that you know what you need to do, there are better answers on quora on how to prepare for tech interviews for high profile silicon valley companies, please do read them! Its motivating and also has some great points that I might have missed.
+
+All the best.
+</p>
+
+
+-Via Quora 
+<br>
+Written by: Anonymous
+</p>
+</figure>
+</div>
+</section>
+<br>
+<hr>
+
+
+<section class="container">
+<div class="row">
+<figure class="col-sm-12">
+<h4> Interview with TCS </h4>
+<p>
+Hello! I am Anushree and I just got selected in the TCS on campus drive held on 19th and 20 th of October in our university campus.
+Honestly,those were two hectic days of combined emotions of nervousness,uncertainty,joy and what not! The selection process is carried out in a number of rounds,qualifying each leads you to the next one.Below is the order of the processes I underwent :
+1.	Verbal ability and Analytical ability test : The first one tests your email writing ability within the stipulated time(Certain words and the situation are provided,you need just to frame the mail). Time limit-10 min. The second one tests your mathematics base. Time limit-80 min.
+2.	Technical round : I had two people taking my interview,asking my subject of interest and related questions. It was of 20 min or so. They even asked some HR questions.
+3.	HR round : Shocking! but true. I had my HR interview of 1 hr and 30 min. It was a one-on-one interview and it was pretty intense .
+4.	Qualifying all those still doesn't confirm your overall selection.There was one more round in which we were asked random questions in batches of 10 people.
+Summing it up,they test your ability pretty seriously and depending on your overall performance you may get an offer.I will mention some points which I felt should be kept in mind whatsoever :
+•	Be confident(not over though!)
+•	Don't pretend and be your self! If you really deserve it you'll get it!
+•	If you are not comfortable with a particular domain you can politely request questions from your favourite domain.
+•	Prepare for the Analytical ability round well from previous year question papers.(Lots of questions are repeated every time!)
+•	Remember,THIS IS NOT THE END. Even if you are not selected do not get upset.You will have lots and lots of opportunities(even better ones) in the times to come.Just keep on working on yourself for the better!
+All the very best!!
+
+
+<br>
+<br>
+
+-Via Quora 
+<br>
+Written by: Anushree Sinha </p>
+</figure>
+</div>
+</section>
+<br>
+<hr>
+
+
+<section class="container">
+<div class="row">
+<figure class="col-sm-12">
+<h4 align="right"> Many more to come....</h4>
+
+</figure>
+</div>
+</div>
+
+
+
+
+<br>
+<br>
+<br>
+<section class="container">
+<div class="row">
+<figure class="col-sm-12">
+<h3> <u>Tell us your story:</u> </h3>
+<br>
+<p>Share your experiences from the placement drives you have attended and let it be a great use for other young aspirants in the hunt for their career. 
+
+</p> 
+
+<hr> 
+<br>
+<p> You can get in touch with us at: <h4> <br>contact@theengineersthing.com <br> <br> theengineersthing.com</h4> </p>
+<br>
+<br>
+<h5> The content from other sources like Quora has been used only for the benefit of the readers. It has been done by giving complete credit to the person who has written it. If you do not want content to be visible on this site please contact us. We will be glad to do the needful. </h5>
+
+</figure>
+</div>
+</section>
+</body>
+
+</html>
